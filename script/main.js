@@ -3,7 +3,7 @@ const instaGridElem = document.querySelector('.insta-grid');
 particlesJS.load('particles', 'script/particles/particles_config.json');
 
 function instagramGrid({ data }) {
-  const images = data.filter((x) => x.media_type !== 'VIDEO');
+  const images = data.filter((x) => x.media_type !== 'VIDEO').slice(0, 16);
 
   for (const elem of images) {
     const pic = document.createElement('a');
