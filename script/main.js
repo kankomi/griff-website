@@ -10,6 +10,7 @@ function instagramGrid({ data }) {
 
     pic.className = 'box';
     pic.setAttribute('href', elem.permalink);
+    pic.setAttribute('target', '_blank');
     pic.style = `
     background: url(${elem.media_url}) no-repeat;
     background-size: cover;
