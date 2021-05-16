@@ -1,6 +1,6 @@
 const instaGridElem = document.querySelector('.insta-grid');
 
-particlesJS.load('particles', 'script/particles/config.json');
+particlesJS.load('particles', 'script/particles/particles_config.json');
 
 function instagramGrid({ data }) {
   const images = data.filter((x) => x.media_type !== 'VIDEO');
