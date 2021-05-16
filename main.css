@@ -3,6 +3,13 @@
 *::before {
   box-sizing: border-box;
 }
+:root {
+  --green: #52b481;
+  --red: #e5362b;
+  --yellow: #feeb17;
+  --pink: #e72174;
+  --blue: #189cd9;
+}
 html {
   font-family: sans-serif;
   color: white;
@@ -24,6 +31,7 @@ body {
 .hero img {
   height: 15vw;
   width: auto;
+  z-index: 1;
 }
 
 section {
@@ -32,7 +40,9 @@ section {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.5em;
+  margin-top: 4em;
+  color: var(--blue);
 }
 
 .subtext {
@@ -52,4 +62,22 @@ h1 {
   position: absolute;
   width: 100%;
   height: 100vh;
+  z-index: 0;
+}
+
+.insta-grid {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background: white;
+  margin-right: 1rem;
+  margin-top: 1rem;
 }

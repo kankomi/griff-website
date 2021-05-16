@@ -8,10 +8,17 @@
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": [
+        "#ffffff",
+        "#52B481",
+        "#E5362B",
+        "#FEEB17",
+        "#E72174",
+        "#189CD9"
+      ]
     },
     "shape": {
-      "type": "image",
+      "type": "edge",
       "stroke": {
         "width": 0,
         "color": "#000000"
